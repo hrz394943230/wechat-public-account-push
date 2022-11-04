@@ -6,6 +6,9 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  
+  //使用push-deer推送
+  USE_PASSAGE: 'push-deer',
 
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx49efc434f8f35ee9',
@@ -21,9 +24,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '00a04e80391e6deb6e1c734d3273e6c6',
+      id: 'PDU17561TWdzPR0aP6HEGtwcj2tyhQbGs83p2Zl0q',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'z05fWzjApsyyWg8aRYgKZ5UzgHHyVgRtuZ9zq2aYbH8',
+      useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-24',
       festivals: [
@@ -43,8 +46,6 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2021-06-19' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
@@ -57,7 +58,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'PDU17561TWdzPR0aP6HEGtwcj2tyhQbGs83p2Zl0q',
     }
   ],
 
