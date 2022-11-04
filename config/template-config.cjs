@@ -32,7 +32,7 @@ const TEMPLATE_CONFIG = [
       
       {{moment_copyrighting.DATA}}
       
-     
+      ` 
   },
   {
     id: '0002',
