@@ -6,8 +6,6 @@ const TEMPLATE_CONFIG = [
     desc: `
       **{{date.DATA}}**
       
-      下个休息日：{{holidaytts.DATA}}
-      
       ---
       
       城市：{{city.DATA}}
